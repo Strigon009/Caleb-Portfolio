@@ -1,0 +1,50 @@
+﻿body {
+    background-color: #EADDCA;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+footer.projectsFooter {
+    display: flex; /* Enable flexbox */
+    justify-content: space-between; /* Space out the two columns */
+    align-items: center; /* Vertically align content */
+    background-color: #FAF9F6; /* Green background */
+    color: black; /* White text color */
+
+    width: 100%;
+    height: 100px; /* Fixed height for the footer */
+    overflow: visible; /* Ensures content stays within the fixed height */
+    margin: 0;
+    bottom: 0;
+    position: relative;
+}
+
+.footer-projects-leftColumn {
+    padding: 0px 30px; /* Vertical padding inside the footer */
+    text-align: left;
+}
+
+/* Right section of the footer with stacked text */
+.footer-projects-rightSection {
+    display: flex;
+    justify-content: space-between;
+    width: 33%; /* Set a width for the right section */
+}
+
+.footer-projects-rightColumnFirstSet {
+    text-align: center; /* Align text to the right */
+}
+
+/* Styling for the left part in the right section */
+.footer-projects-rightColumnSecondSet {
+    text-align: center; /* Align text to the right */
+}
+
+.footer-projects-rightColumnThirdSet {
+    text-align: center; /* Align text to the right */
+    margin-right: 80px; /* Add spacing between the two columns */
+}
