@@ -5,10 +5,244 @@
 .container {
     display: flex;
     flex-direction: column;
-    height: 100%;
+    justify-content: center; /* Centers the content vertically */
+    align-items: center; /* Centers the content horizontally */
+    width: 100%;
+    height: 250%;
+}
+
+.titleExperience {
+    position: absolute;
+    top: 17%;
+    margin-right: 30.5vw;
+    width: 100%; /* Box will take 50% of the container's width */
+    max-width: 250px; /* Max width to avoid it becoming too large */
+    min-height: 100px; /* Minimum height of the box */
+    font-size: 40px; /* Smaller font size */
+    font-weight: bold;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+/* SPF Box */
+.firstJobExperience {
+    position: absolute;
+    top: 30%;
+    width: 100%; /* Box will take 50% of the container's width */
+    max-width: 800px; /* Max width to avoid it becoming too large */
+    min-height: 475px; /* Minimum height of the box */
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #FFFFFF; /* Optional background color */
+    border: 1px solid #ccc;
+    /*margin-bottom: 5vh;*/
+    font-size: 15px; /* Smaller font size */
+    font-family: 'Segoe UI', sans-serif;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.firstJobExperience p.JobYear{
+    color: #333;
+    margin: 10px 0;
+    text-align: left;
+    font-size: 25px; /* Smaller font size */
+    font-weight: bold; /* Make the text bold */
+    font-family: 'Segoe UI', sans-serif;
+    color: blue;
+}
+
+.firstJobExperience p.JobPosition {
+    color: #333;
+    margin: 10px 0;
+    text-align: left;
+    font-size: 18px; /* Smaller font size */
+    font-family: 'Segoe UI', sans-serif;
+}
+
+.firstJobExperience p.JobCompany {
+    color: #333;
+    margin: 10px 0;
+    text-align: left;
+    font-size: 15px; /* Smaller font size */
+    font-family: 'Segoe UI', sans-serif;
+}
+
+.firstJobDescription {
+    position: absolute;
+    padding-left: 250px;
+    padding-right: 20px;
+    color: #333;
+    text-align: left;
+    font-size: 14px; /* Smaller font size */
+    font-family: 'Segoe UI', sans-serif;
+}
+
+.firstJobExperience .firstJobDescription li {
+    margin-bottom: 10px;
+}
+
+/* gumi Asia Box*/
+.secondJobExperience {
+    position: absolute;
+    top: 90%;
+    width: 100%; /* Box will take 50% of the container's width */
+    max-width: 800px; /* Max width to avoid it becoming too large */
+    min-height: 400px; /* Minimum height of the box */
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #FFFFFF; /* Optional background color */
+    border: 1px solid #ccc;
+    font-size: 15px; /* Smaller font size */
+    font-family: 'Segoe UI', sans-serif;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.secondJobExperience p.JobYear{
+    color: #333;
+    margin: 10px 0;
+    text-align: left;
+    font-size: 25px; /* Smaller font size */
+    font-weight: bold; /* Make the text bold */
+    font-family: 'Segoe UI', sans-serif;
+    color: blue;
+}
+
+.secondJobExperience p.JobPosition {
+    color: #333;
+    margin: 10px 0;
+    text-align: left;
+    font-size: 18px; /* Smaller font size */
+    font-family: 'Segoe UI', sans-serif;
+}
+
+.secondJobExperience p.JobCompany {
+    color: #333;
+    margin: 10px 0;
+    text-align: left;
+    font-size: 15px; /* Smaller font size */
+    font-family: 'Segoe UI', sans-serif;
+}
+
+.secondJobDescription {
+    position: absolute;
+    padding-left: 250px;
+    padding-right: 20px;
+    color: #333;
+    text-align: left;
+    font-size: 14px; /* Smaller font size */
+    font-family: 'Segoe UI', sans-serif;
+}
+
+.secondJobExperience .secondJobDescription li {
+    margin-bottom: 10px;
+}
+
+.titleEducation {
+    position: absolute;
+    top: 145%;
+    margin-right: 30.5vw;
+    width: 100%; /* Box will take 50% of the container's width */
+    max-width: 250px; /* Max width to avoid it becoming too large */
+    min-height: 100px; /* Minimum height of the box */
+    font-size: 40px; /* Smaller font size */
+    font-weight: bold;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+/* NYP */
+.diplomaEducation {
+    position: absolute;
+    top: 158%;
+    width: 100%; /* Box will take 50% of the container's width */
+    max-width: 800px; /* Max width to avoid it becoming too large */
+    min-height: 250px; /* Minimum height of the box */
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #FFFFFF; /* Optional background color */
+    border: 1px solid #ccc;
+    font-size: 15px; /* Smaller font size */
+    font-family: 'Segoe UI', sans-serif;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.diplomaEducation p.diplomaYear {
+    color: #333;
+    margin: 10px 0;
+    text-align: left;
+    font-size: 30px; /* Smaller font size */
+    font-weight: bold; /* Make the text bold */
+    font-family: 'Segoe UI', sans-serif;
+    color: blue;
+}
+
+.diplomaEducation p.diplomaLevel {
+    color: #333;
+    margin: 10px 0;
+    text-align: left;
+    font-size: 23px; /* Smaller font size */
+    font-family: 'Segoe UI', sans-serif;
+}
+
+.diplomaEducation p.diplomaPoly {
+    color: #333;
+    margin: 10px 0;
+    text-align: left;
+    font-size: 20px; /* Smaller font size */
+    font-family: 'Segoe UI', sans-serif;
+}
+
+/* SASS */
+.oLevelEducation {
+    position: absolute;
+    top: 195%;
+    width: 100%; /* Box will take 50% of the container's width */
+    max-width: 800px; /* Max width to avoid it becoming too large */
+    min-height: 250px; /* Minimum height of the box */
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #FFFFFF; /* Optional background color */
+    border: 1px solid #ccc;
+    font-size: 15px; /* Smaller font size */
+    font-family: 'Segoe UI', sans-serif;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.oLevelEducation p.oLevelYear {
+    color: #333;
+    margin: 10px 0;
+    text-align: left;
+    font-size: 30px; /* Smaller font size */
+    font-weight: bold; /* Make the text bold */
+    font-family: 'Segoe UI', sans-serif;
+    color: blue;
+}
+
+.oLevelEducation p.oLevelLevel {
+    color: #333;
+    margin: 10px 0;
+    text-align: left;
+    font-size: 23px; /* Smaller font size */
+    font-family: 'Segoe UI', sans-serif;
+}
+
+.oLevelEducation p.oLevelSchool {
+    color: #333;
+    margin: 10px 0;
+    text-align: left;
+    font-size: 20px; /* Smaller font size */
+    font-family: 'Segoe UI', sans-serif;
 }
 
 footer.resumeFooter {
+    position: absolute;
+
     display: flex; /* Enable flexbox */
     justify-content: space-between; /* Space out the two columns */
     align-items: center; /* Vertically align content */
@@ -17,10 +251,6 @@ footer.resumeFooter {
 
     width: 100%;
     height: 100px; /* Fixed height for the footer */
-    overflow: visible; /* Ensures content stays within the fixed height */
-    margin: 0;
-    bottom: 0;
-    position: relative;
 }
 
 .footer-resume-leftColumn {
