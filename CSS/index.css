@@ -16,17 +16,17 @@
     width: 100%; /* Box will take 50% of the container's width */
     max-width: 600px; /* Max width to avoid it becoming too large */
     min-height: 550px; /* Minimum height of the box */
-    padding: 20px;
+    padding: 23px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: #FFFFFF; /* Optional background color */
     border: 1px solid #ccc;
     margin-bottom: 25vh;
     font-size: 14px; /* Smaller font size */
     font-family: 'Segoe UI', sans-serif;
     background-color: #FFFAF0;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .text-boxLeft img {
@@ -54,12 +54,12 @@
     background-color: #FFFFFF; /* Optional background color */
     border: 1px solid #ccc;
     margin-bottom: 25vh;
-    font-size: 14px; /* Smaller font size */
+    font-size: 15px; /* Smaller font size */
     font-family: 'Segoe UI', sans-serif;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .text-boxRight p.index-firstHeaderTextBox {
-    font-size: 16px;
     color: #333;
     margin: 10px 0;
     text-align: center;
@@ -69,7 +69,6 @@
 }
 
 .text-boxRight p.index-secondHeaderTextBox {
-    font-size: 16px;
     color: #333;
     margin: 10px 0;
     text-align: center;
@@ -77,6 +76,45 @@
     font-weight: bold; /* Make the text bold */
     font-family: 'Segoe UI', sans-serif;
 }
+
+/*.descriptionBox {
+    max-width: 36vw;
+    max-height: 60vh;
+    margin-right: 12vw;
+    border: 1px solid #ccc;  Optional: for styling 
+    overflow: hidden;  Prevent text from overflowing 
+}
+
+.firstHeaderTextBox {
+    text-align: center;
+    font-size: 60px;  Change font size 
+    font-weight: bold;  Make the text bold 
+    font-family: 'Segoe UI', sans-serif;
+    line-height: 0.5;
+}
+
+.secondHeaderTextBox {
+    text-align: center;
+    font-size: 27px;  Change font size 
+    font-weight: bold;  Make the text bold 
+    font-family: 'Segoe UI', sans-serif;
+}
+
+.descriptionText {
+    width: max-content;
+    text-align: left;
+    margin-left: 20px;
+    font-size: 1rem;  Change font size 
+    font-family: 'Segoe UI', sans-serif;
+    max-width: 35vw;
+    word-wrap: break-word;
+}
+
+.skillDescriptionText {
+    text-align: center;
+    font-size: 14px;  Change font size 
+    font-family: 'Segoe UI', sans-serif;
+}*/
 
 footer.indexFooter {
     display: flex; /* Enable flexbox */
