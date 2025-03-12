@@ -5,7 +5,95 @@
 .container {
     display: flex;
     flex-direction: column;
-    height: 100%;
+    justify-content: center; /* Centers the content vertically */
+    align-items: center; /* Centers the content horizontally */
+    width: 100%;
+    height: 250%;
+}
+
+/* Title for Sneak Peek */
+.titleSneakPeek {
+    position: absolute;
+    top: 20%;
+    width: 100%; /* Box will take 50% of the container's width */
+    max-width: 250px; /* Max width to avoid it becoming too large */
+    min-height: 100px; /* Minimum height of the box */
+    font-size: 40px; /* Smaller font size */
+    font-weight: bold;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+.contentSneakPeek {
+    position: absolute;
+    top: 35%;
+    width: 100%; /* Box will take 50% of the container's width */
+    max-width: 800px; /* Max width to avoid it becoming too large */
+    min-height: 300px; /* Minimum height of the box */
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #FFFFFF; /* Optional background color */
+    border: 1px solid #ccc;
+    font-family: 'Segoe UI', sans-serif;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.descriptionSneakPeek {
+    position: relative;
+    color: #333;
+    text-align: center;
+    font-size: 18px; /* Smaller font size */
+    line-height: 1.8;
+}
+
+/* Sneak Peek MP4 */
+.gameplaySneakPeekVideo {
+    position: absolute;
+    top: 75%;
+}
+
+/* Title for TTSH NAD */
+.titleTTSHNAD {
+    position: absolute;
+    top: 140%;
+    width: 100%; /* Box will take 50% of the container's width */
+    max-width: 750px; /* Max width to avoid it becoming too large */
+    min-height: 100px; /* Minimum height of the box */
+    font-size: 40px; /* Smaller font size */
+    font-weight: bold;
+    font-family: 'Segoe UI', sans-serif;
+    text-align: center;
+}
+
+.contentTTSHNAD {
+    position: absolute;
+    top: 155%;
+    width: 100%; /* Box will take 50% of the container's width */
+    max-width: 800px; /* Max width to avoid it becoming too large */
+    min-height: 300px; /* Minimum height of the box */
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #FFFFFF; /* Optional background color */
+    border: 1px solid #ccc;
+    font-family: 'Segoe UI', sans-serif;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.descriptionTTSHNAD {
+    position: relative;
+    color: #333;
+    text-align: center;
+    font-size: 18px; /* Smaller font size */
+    line-height: 1.8;
+}
+
+/* TTSH NAD MP4 */
+.trailerTTSHNADVideo {
+    position: absolute;
+    top: 195%;
 }
 
 footer.projectsFooter {
